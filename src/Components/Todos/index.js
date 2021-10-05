@@ -11,28 +11,12 @@ class Todos extends React.Component {
 		todos: [
 			{
 				id: '01',
-				task: 'Say Hello.',
-				description: 'Need to Complete the Todos App Today',
+				task: 'Create a Todo',
+				description: 'Track your todos list.',
 				time: new Date().toDateString(),
 				isSelected: false,
 				isCompleted: false,
-			},
-			{
-				id: '012',
-				task: 'Say Hii.',
-				description: 'Need to Complete the Todos App Today',
-				time: new Date().toDateString(),
-				isSelected: false,
-				isCompleted: false,
-			},
-			{
-				id: '02',
-				task: 'Go to Toylet.',
-				description: 'Need to Complete the Todos App Today',
-				time: new Date().toDateString(),
-				isSelected: false,
-				isCompleted: false,
-			},
+			}
 		],
 		isFormOpen: false,
 		search: '',
